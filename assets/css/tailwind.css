@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background-color: #000;
+}
+
+img {
+    /* width: 100%; */
+    /* height: 100%; */
+    object-fit: contain;
+    /* max-width: 800px; */
+    margin: 0 auto;
+}
+
+input,
+select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+option,
+select {
+    margin: 0 20px;
+}
+
+.btn {
+    padding: 16px 22px 17px 22px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.btn-primary-light {
+    background-color: #000;
+    color: #fff;
+    border: 1px solid #dcbc70;
+}
+
+.btn-primary-dark {
+    background-color: #dcbc70;
+    color: #000;
+    border: 1px solid #000;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #dcbc70;
+}
+
+.btn-primary-light:hover {
+    background-color: #dcbc70;
+    color: #000;
+}
+
+input[type='checkbox'] {
+    margin-bottom: 0px;
+}
+

@@ -1,0 +1,4 @@
+{
+  "extends": "./.nuxt/tsconfig.json",
+  "exclude": ["app.vue"] // 排除 app.vue
+}
